@@ -1,0 +1,24 @@
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/bcrypt-3.1.7/ext/mri
+/usr/local/rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170213-16102-p8hjnd.rb extconf.rb 
+checking for ruby/util.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /var/www/rails/sample_app/vendor/bundle/extensions/x86_64-linux/2.3.0-static/bcrypt-3.1.7/mkmf.log
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR=" clean
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR=" install
+/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170213-16102-15rfabr

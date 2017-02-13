@@ -1,0 +1,19 @@
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/byebug-3.4.0/ext/byebug
+/usr/local/rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170213-16102-9ctb42.rb extconf.rb 
+creating Makefile
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /var/www/rails/sample_app/vendor/bundle/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR=" install
+/bin/install -c -m 0755 byebug.so ./.gem.20170213-16102-uxnc3w/byebug
